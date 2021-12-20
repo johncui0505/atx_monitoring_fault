@@ -1,0 +1,10 @@
+---
+# ACI Faults 카운트 알림 - {{ add_title }}
+
+fault 카테고리의 총 개수: **{{ faults_system.totalCount }}**
+
+| Serverity | Type | Code | Domain | Cause |
+
+{% for fault in faults_system.imdata %}
+- **{{ fault.faultSummary.attributes.severity }}** | **{{ fault.faultSummary.attributes.type }}** | **{{ fault.faultSummary.attributes.code }}** | **{{ fault.faultSummary.attributes.domain }}** | `{{ fault.faultSummary.attributes.cause }}`
+{% endfor %}
