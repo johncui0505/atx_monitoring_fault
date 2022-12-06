@@ -7,7 +7,7 @@ aci_port=443
 aci_user=admin
 aci_password=C!sc0123
 aci_valid_cert=false
-aci_use_ssl=false
+aci_use_ssl=true
 
 roomID=Y2lzY29zcGFyazovL3VzL1JPT00vNWNiYjZmZTAtM2RiNy0xMWVjLWIwZWUtNmI5N2MzZWM2NTk2
 token=Mjc4ZjAxMzYtOWNmZS00NmEzLWEzMTMtN2FmNDdkNDAwYTczYzg2ZmI3NjItZmQx_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f
